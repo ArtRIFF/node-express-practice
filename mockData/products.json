@@ -1,0 +1,68 @@
+{
+	"products": [
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/233467004.jpg",
+			"title": " Ноутбук Acer Nitro 5 AN515-57-54K7 (NH.QESEU.003) Shale Black ",
+			"label": {
+				"status": "top",
+				"text": "ТОП ПРОДАЖ"
+			},
+			"prices": {
+				"retail": "37 999",
+				"sale": " 29 999",
+				"currency": "грн"
+			}
+		},
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/195314565.jpg",
+			"title": " Ноутбук ASUS Laptop 14 X409FA-BV593 (90NB0MS2-M09690) Star Grey ",
+			"label": {
+				"status": "top",
+				"text": "ТОП ПРОДАЖ"
+			},
+			"prices": {
+				"retail": "12 999",
+				"sale": " 11 499",
+				"currency": "грн"
+			}
+		},
+		{
+			"src": "https://content1.rozetka.com.ua/goods/images/big_tile/144249716.jpg",
+			"title": " Ноутбук Apple MacBook Air 13' M1 256GB 2020 (MGN63) Space Gray ",
+			"label": {
+				"status": "top",
+				"text": "ТОП ПРОДАЖ"
+			},
+			"prices": {
+				"price": "33 999",
+				"currency": "грн"
+			}
+		},
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/178061189.jpg",
+			"title": " Ноутбук Lenovo V15-ADA (82C70010RA) Iron Grey ",
+			"label": {
+				"status": "rozetka",
+				"text": "ТОЛЬКО В РОЗЕТКЕ"
+			},
+			"prices": {
+				"retail": "15 999",
+				"sale": "13 699",
+				"currency": "грн"
+			}
+		},
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/223511619.jpg",
+			"title": " Ноутбук ASUS ZenBook 14 UM425QA-KI080 (90NB0TV1-M02230) Pine Grey ",
+			"label": {
+				"status": "sale",
+				"text": "АКЦИЯ"
+			},
+			"prices": {
+				"retail": "29 999",
+				"sale": "26 999",
+				"currency": "грн"
+			}
+		}
+	]
+}
