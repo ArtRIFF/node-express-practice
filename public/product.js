@@ -1,4 +1,4 @@
-const products = document.getElementById('products');
+const productsContainer = document.getElementById('products');
 
 const sendRequest = async (url) => {
   const response = await fetch(url);
@@ -6,16 +6,16 @@ const sendRequest = async (url) => {
   return result;
 }
 
-
 const API = 'http://localhost:8000/api/';
-
 sendRequest(`${API}products`)
   .then(({ data }) => {
-    data.forEach((item, id) => {
+    const {products} = data[0];
+    console.log(products);
+    products.forEach((item, id) => {
       const { label, prices, src, title } = item;
       const { status, text } = label;
       const { currency, retail, sale } = prices;
-      products.insertAdjacentHTML('afterbegin', `
+      productsContainer.insertAdjacentHTML('afterbegin', `
             <div class="card-box">
             <div class="col card" data-id="${id}">
                 <div class="card-header">
