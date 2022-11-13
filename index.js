@@ -14,6 +14,16 @@ const MongoClient = require('mongodb').MongoClient;
 // 	console.log("SDSDSD");
 // 	console.log(cursor);
 // });
+// MongoClient.connect(url, function(err, db) {
+// 	var cursor = db.collection('products').find();
+// 	console.log("SDSDSD");
+// 	console.log(cursor);
+// });
+// MongoClient.connect(url, function(err, db) {
+// 	var cursor = db.collection('products').find();
+// 	console.log("SDSDSD");
+// 	console.log(cursor);
+// });
 
 app.use(express.static('./public'));
 
